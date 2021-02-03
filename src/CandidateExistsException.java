@@ -4,5 +4,4 @@ public class CandidateExistsException extends Exception {
     public CandidateExistsException(String name) {
         this.name = name;
     }
-
 }
