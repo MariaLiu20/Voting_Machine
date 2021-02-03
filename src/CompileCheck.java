@@ -5,7 +5,9 @@ class CompileCheck {
     Exception e3 = new DuplicateVotesException("gompei");
     ElectionData ED = new ElectionData();
     try {
-      ED.addCandidate("a");ED.addCandidate("b");ED.addCandidate("c");
+      ED.addCandidate("a");
+      ED.addCandidate("b");
+      ED.addCandidate("c");
     }
     catch (CandidateExistsException e) {}
     try {
